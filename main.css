@@ -1,0 +1,120 @@
+body {
+    background: #E9F7EF; 
+    color: #2C3E50; 
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    margin: 0;
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+#hdr {
+    min-height: 220px;
+    padding-top: 3em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.hdr-bg {
+    background: url('imgs/brown-camel-931881.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    margin: 0;
+}
+
+.destinations {
+    display: block;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 1.5em; 
+    padding: 1em 1.5em;
+}
+
+.dest {
+    flex: 0 1 calc(48% - 1em); 
+    border-radius: 10px;
+    background: #D5DBDB; 
+    vertical-align: top;
+    text-align: left;
+    height: auto; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    margin-bottom: 1.5em; 
+    margin-left:25%;
+    margin-right:25%;
+}
+
+.dest img {
+    width: 100%;
+    height: 150px; 
+    object-fit: contain; 
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.dest-text {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #34495E; 
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    display:block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #3498DB; 
+    border-radius: 25px;
+    font-weight: bold;
+    position:relative;
+    margin-left:42%;
+    margin-right: 42%;
+}
+
+.btn:hover {
+    background: #1ABC9C; 
+}
+
+footer {
+    background: #F1C40F; 
+    color: #2C3E50;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: #2C3E50;
+}
+
+.contact {
+    background: #1ABC9C; 
+    min-height: 120px;
+    color: white;
+    width: 100%;
+}
+
+.prices {
+    background: #F39C12;
+    padding: 1em;
+    color: #2C3E50;
+    display:block;
+}
+
+section {
+    padding-bottom: 2em;
+}
